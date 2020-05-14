@@ -9,3 +9,4 @@
  chown ubuntu:ubuntu /opt/zeppelin/conf/zeppelin-env.sh 
  sed -i '94d' /opt/zeppelin/conf/zeppelin-env.sh 
  chown -R ubuntu:ubuntu /opt/zeppelin
+ chmod -R 777 /opt/zeppelin
